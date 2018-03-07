@@ -1,7 +1,9 @@
 # Image Comparisons and Clustering Ideas
 Curated ideas list of Techniques and Possible Approaches to do Image Comparisons and Clustering
 
-They are arranged roughly in increasing order of complexity 
+They are arranged roughly in increasing order of complexity
+
+**Note to Beginners**: Get started with the [Python image comparison tutorial](https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/)
 
 ## Image Subtraction  
 1. Subtract one image from another
@@ -18,9 +20,12 @@ Root Mean Squared error, Normalized RMSE and other implementations from [scikit-
 ### Structured Similarity Index 
 - scikit-image has a [SSI implementation](http://scikit-image.org/docs/dev/api/skimage.measure.html#structural-similarity)
 https://pastebin.com/fwT059Zw
+- [Python Image Tutorial with SSIM](https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/)
 - SSI is different from RMSE because it is locally sensitive to image components, while RMSE takes the entire image in one go
 - [compare_ssim](http://scikit-image.org/docs/dev/api/skimage.measure.html#skimage.measure.compare_ssim) computes the mean structural similarity index between two images
 
+
+ 
 ## Feature Extractions
 
 ### Image Hash
