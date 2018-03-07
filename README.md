@@ -3,7 +3,10 @@ Curated ideas list of Techniques and Possible Approaches to do Image Comparisons
 
 They are arranged roughly in increasing order of complexity
 
-**Note to Beginners**: Get started with the [Python image comparison tutorial](https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/)
+**Note to Beginners**: 
+
+ - Get started with the [Python image comparison tutorial](https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/)
+ - Extract Image Features -> Similarity Metric -> Compute Pairwise Similarity -> Hierarchical Clustering
 
 ## Image Subtraction  
 1. Subtract one image from another
